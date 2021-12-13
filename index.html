@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Mouse</title>
+    <link rel="shortcut icon" href="./images/dedo.webp" type="image/x-icon">
+    <!--enlace con estilo-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--enlace con javascript-->
+    <script src="./javascript/javascript.js"></script>
+    <!--enlace con fuente si es de google fonts y no lo descargo-->
+
+    <!--enlace al catálogo de Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#hero" class="active"><i class="fa fa-desktop"></i> Main</a>
+            <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#historia">History</a>
+            <a href="#Galeria">Types</a>
+            <a href="#compra">Shopping guide</a>
+            <a href="#curiosidades">Curiosities</a>
+            <a href="#footer">Contact Us</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="hamburguer()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    </nav>
+
+    <div onclick="topFunction()" id="up"><img src="./images/dedo.webp" alt="dedo"></div>
+
+    <section id="hero">
+        <h1>
+            <span class="rojo">C</span><span class="verde">O</span><span class="amarillo">M</span><span class="rojo">P</span><span class="verde">U</span><span class="amarillo">T</span><span class="rojo">E</span><span class="verde">R</span> <span class="amarillo">M</span><span class="rojo">O</span><span class="verde">U</span><span class="amarillo">S</span><span class="rojo">E</span>
+        </h1>
+
+        <h2>
+            Point and click...
+        </h2>
+        
+        <p id="cta"> <a href="#historia"> Discover its history</a></p>
+    </section>
+    
+    <div id="container">
+        <section id="intro">
+            <h1>Introduction</h1>
+            <p>The computer mouse is a device that allows us to communicate with computer equipment, moving a cursor on the screen to point and click, it is a device that is usually connected by USB, although formerly it was connected to the PS / 2 port. <br> It is a lot more important than I think because it has allowed people who are not very computer literate and could not have been able to communicate with a computer with a keyboard and commands to use these tools. <br> What has increased the demand for equipment and therefore the investment of money and the increase in innovation. So thanks to the mouse today the world is what it is.</p>
+        </section>
+        
+        <section id= "historia">
+            <h1>Mouse History</h1>
+            
+            <div class = "pasado">
+                <h2>Past:</h2>
+                <div class="half" class="left">
+                    <p>The first mouse as we know it was designed during the 1960s (1963). It was an invention co-designed by two men, Bill English (right) and Douglas Engelbart (left).</p>
+                    <p>This device had the appearance of a wooden paving stone and worked thanks to two metal wheels that established the X and Y axes.</p>
+                    <p>It also had a red button at the top.</p>
+                    <p>Although it seems very archaic, the logic behind the device is not very different from current mouse.</p>
+                </div>
+                <div class="half" class="right">
+                    <img class="columnImages" id="inventors" src="./images/engelbart.png" alt="creadores del ratón">
+                </div>
+                <div class="corta-float"></div>
+                
+                <div class="half" class="right">
+                    <img class="columnImages"  src="./images/computers.png" alt="">
+                </div>
+                <div class="half" class="left">
+                    <p>In 1981 the first PC with a built-in mouse appeared (Xerox star 8010 | right), it also included a graphical user interface</p>
+                    <p>Although it already existed, it was with the Mac 1984 that this tool really became popular (left image)</p>
+                </div>
+                <div class="corta-float"></div>
+                
+                <div class="half" class="left">
+                    <p>The first commercial mouse were mechanical, that is, they used a plastic ball that moves two wheels, similar to those of the 1963 protocol.</p>
+                    <p>Some time later, in 1999, the first optical mouse came out, the Microsoft Intellimouse Intellieye.</p>
+                </div>
+                <div class="half" class="right">
+                    <img class="columnImages" id="inventors" src="./images/mouseMecanico.png" alt="creadores del ratón">
+                </div>
+                <div class="corta-float"></div>
+                
+                <p class="border"></p>
+            </div>
+                
+            <h2>Present:</h2>
+            
+            <div class="presente">
+                <div class="half" class="right">
+                    <img class="columnImages"  src="./images/gamingmouse.png" alt="gaming mouse">
+                </div>
+                <div class="half" class="left">
+                    <p>Currently the market is focused on "gaming" mouse, dedicated to video games, since this is where a very precise and comfortable pointer is required for competitive games.</p>
+                    <p>These have many buttons to allow assigning controls to them, for example for reloading in a shooter video game.<p>
+                    <p>Extremely precise and fluid movement has already been achieved in these peripherals and it is difficult to glimpse their future.</p>
+                </div>
+                    <div class="corta-float"></div>
+                    
+                    <div class="half" class="right">
+                        <p>There are also new models that provide innovative designs, such as the apple "magic mouse" or the logitech MX with its vertical design.</p>
+                    </div>
+                    <div class="half" class="left">
+                        <img class="columnImages"  src="./images/strangeMouses.png" alt="strange mouses">
+                    </div>
+                    <div class="corta-float"></div>
+                </div>
+                    
+                    <p class="border"></p>
+
+            <div class="futuro">
+                <h2>Future:</h2>
+                <div class="half" class="right">
+                    <img class="columnImages"  src="./images/vr.png" alt="">
+                </div>
+                <div class="half" class="left">
+                    <p>The mouse models that we know are already highly evolved (polling rate, DPI ...) but new very interesting models are appearing. </p>
+                    <p>An example of these are the new devices that allow us to interact in <b>virtual reality</b> environments. Since in these we cannot make use of current devices.</p>
+                    <p>It should be noted that these devices would not be mouse as such, they would be more like nice substitutes in VR environments.</p>
+                    <p>It is also important to know that these new controllers are at a very early stage, and it is expected that in a few years this technology will be more established, for gaming and even professional functions (architecture, industrial design...).</p>
+                </div>
+                <div class="corta-float"></div>
+            </div>
+                
+                <p class="border"></p>
+            </section>
+            
+
+            <section id="Galeria">
+                <!--Vamos a hacer la galery con 4 columnas de fotos-->
+                <h1>Types of mouse:</h1>
+                <div class="cuarto">
+                    <img src="./images/mouse-bolita1.png" alt="ball mouse">
+                    <h2> Ball </h2>
+                    <p> -They use the traditional system to determine the position of the cursor. </p>
+                    <p> -They accumulate a lot of dirt on the ball. </p>
+                    <p> -Less accurate than opticians </p>
+                    <p> -They connect through the ps2 port </p>
+                    <p> -For the nostalgic </p>
+                </div>
+
+                <div class="cuarto">
+                    <img src="./images/Ratones-ópticos-01.webp" alt="optic mouse">
+                    <h2> With optical sensor </h2>
+                    <p> -They are responsible for determining the position of the mouse taking thousands of images per second, there are two types: </p>
+                    <p> Infrared: </p>
+                    <p> These work best on <b> rough surfaces </b> </p>
+                    <p> Laser: </p>
+                    <p> Better on smooth or slippery surfaces, <b> like glass </b> </p>
+                </div>
+                
+                <div class="corta-float-cuarto"></div>
+
+                <div class="cuarto">
+                    <img src="./images/verticalMouse.png" alt="vertical mouse">
+                    <h2> Ergonomic </h2>
+                    <p> -Adjust better to the grip of the hand. </p>
+                    <p> -Normally they have a very unique vertical layout. </p>
+                </div>
+                
+                <div class="cuarto">
+                    <img src="./images/raton-inalambrico.png" alt="inalambric mouse">
+                    <h2> Wireless </h2>
+                    <p> -All types of mouse seen above can be wireless. </p>
+                    <p> -You can connect without cable </p>
+                    <p> -There are those that are connected by bluethooth </p>
+                </div>
+                <div class="corta-float"></div>
+
+                <div class="corta-float-cuarto"></div>
+
+                <div class="cuarto">
+                    <img src="./images/trackpad.png" alt="trackpad">
+                    <h2> Trackball </h2>
+                    <p> -They consist of a ball that we move instead of the mouse itself. </p>
+                    <p> -For places where mobility is reduced. </p>
+                    <p> -For people with some kind of disability or injury </p>
+                </div>
+
+                <div class="cuarto">
+                    <img src="./images/Touchpad-portátil-01.webp" alt="toutchpad">
+                    <h2> Touchpad </h2>
+                    <p> -They are not mouse as such. </p>
+                    <p> -They replace the function of the same in laptops </p>
+                    <p> -There are quite complete ones, there are some that are multi-touch and perform certain actions depending on how many fingers you use them with. </p>
+                </div>
+
+                <div class="corta-float-cuarto"></div>
+                
+                <div class="cuarto">
+                    <img src="./images/mouse3d.png" alt="mouse3d">
+                    <h2> 3d mouse </h2>
+                    <p> -They consist of a six-degree motion sensor that allows you to point with great precision in 3D environments. </p>
+                    <p> -They are used in graphic design and three-dimensional design. </p>
+                </div>
+                
+                <div class="cuarto">
+                    <img src="./images/zurdos.png" alt="computers">
+                    <h2> For lefties </h2>
+                    <p> -Mouse for left-handed people. </p>
+                </div>
+
+                <div class="corta-float-cuarto"></div>
+
+                <div class="corta-float"></div>
+                <p class="border"></p>
+            </section>
+            
+            <section id="compra">
+                <h1> Mouse Buying Guide </h1>
+                
+                <p> Today a normal user should take into account: </p>
+                <div class = "half" class = "right">
+                    <p> Comfort. </p>
+                    <p> For this you will have to take into account the shape of the mouse and your type of grip, there are 3 types: </p>
+                    <ul>
+                        <li> Palm: You need a mouse with an inclined curvature to the side with which you are going to hold the mouse. </li>
+                        <li> Claw: They are usually elongated and fully centered mouse. </li>
+                        <li> Fingers: They are usually smaller mouse with a more round shape, also centered. </li>
+                    </ul>
+                </div>
+                <div class="half" class="left">
+                    <img class="columnImages"  src="./images/Tipos-de-agarre-y-mouses.png" alt="">
+                </div>
+
+                <div class="corta-float"></div>
+
+                <div class="half" class="right">
+                    <img class="columnImages"  src="./images/ratones.jpg" alt="">
+                </div>
+                <div class="half" class="left">
+                    <p> The type. </p>
+                    <p> It is important to take into account what is mentioned in the mouse types section: </p>
+                    <ul>
+                        <li> We will have to know if we want a wired or wireless one </li>
+                        <li> It is important to know where we will use it to choose between laser (glass table) and infrared (mat or cloth). </li>
+                        <li> It is important to know if we want an ergonomic or left-handed one. </li>
+                    </ul>
+                </div>
+                <div class="corta-float"></div>
+
+                <div class="half" class="right">
+                    <p> The quality. </p>
+                    <p> It is important to take into account the quality of the product: </p>
+                    <ul>
+                        <li> We must ensure that it is made of materials that will not spoil in a short time. </li>
+                        <li> We can look at the mouse brand to see if it is of good quality (razer, logitech). </li>
+                        <li> We must also adapt this to our needs, we must not fall short or go too far. </li>
+                    </ul>
+                </div>
+                <div class="half" class="left">
+                    <img class="columnImages"  src="./images/raton-colacao.webp" alt="">
+                </div>
+                <div class="corta-float"></div>
+
+                
+                <div class="half" class="right">
+                    <img class="columnImages"  src="./images/gamingMouse2.png" alt="">
+                </div>
+                <div class="half" class="left">
+                    <p> Features. </p>
+                    <p> In case you want a mouse for gaming or activities that need speed: </p>
+                    <ul>
+                        <li> DPI or dots per inch, which allows us to see the resolution of the mouse. <br> We will be able to know how many pixels the mouse will move for each inch. </li>
+                        <li> IPS or inches per second, which is the speed at which the mouse sensor can accurately track movement. </li>
+                        <li> The number of buttons that we want our mouse to have in order to assign keys to them. </li>
+                    </ul>
+                    <p> There are many more variables (maximum acceleration, type of sensor ...) but having the two mentioned above controlled is enough. </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ezT79-_egM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="corta-float"></div>
+            </section>
+            <p class="border"></p>
+            
+            <section id="curiosidades">
+                <h1>Curiosidades:</h1>
+                <div class="cuarto">
+                    <img src="./images/no_money.png" alt="no money">
+
+                    <h2>Its creators did not charge ANYTHING. The patent is from Stanford</h2>
+                </div>
+                
+                <div class="cuarto">
+                    <img src="./images/lot-of-money.png" alt="optic mouse">
+                    
+                    <h2>They started out costing $ 1000 today</h2>
+                </div>
+                
+                <div class="corta-float-cuarto"></div>
+                
+                <div class="cuarto">
+                    <img src="./images/7-raton-posando-de-pie.webp" alt="vertical mouse">
+                    
+                    <h2>Its name comes from the "tail" of the mouse<h2/>
+                </div>
+                
+                <div class="cuarto">
+                    <img src="./images/cursor.png" alt="inalambric mouse">
+                    
+                    <h2>The cursor is rotated for better viewing</h2>
+                </div>
+                <div class="corta-float"></div>
+
+                <div class="corta-float-cuarto"></div>
+
+            </section>
+
+            <footer id="footer"> <br>
+                Contact us: <br>
+                <a href="https://mobile.twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a href=https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a> <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a> <br> 
+                <div id="correo"> alecuetocontacto@gmail.com</div> <br> <br>
+                Our location: <br> <br>
+                <iframe class="responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2561818207523!2d-4.5569960843938295!3d36.74042147876127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d2ffe3a137%3A0xe095a3ea561debe2!2sC.%20Frederick%20Terman%2C%2029590%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1639231112000!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </footer>
+        </div>
+        
+    </body>
+    </html>
